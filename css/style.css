@@ -1,11 +1,13 @@
 body{
-    background-image: url("../images/background.jpg") ;
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: 100% 100%;
+                -moz-background-size: 100% 100%;
+                -o-background-size: 100% 100%;
+                background-size: 100% 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* banner */
 .headline{
     font-size: 55px;
     font-weight: bold;
@@ -29,6 +31,8 @@ body{
     background-color: yellowgreen;
 }
 
+/* end banner */
+/* content */
 .panel-nama{
     background-color: #ffc107;
     text-align: center;
@@ -59,6 +63,49 @@ body{
     z-index: 1;
 }
 
+.daftar-atlet{
+    background-color: azure;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 2px 5px 5px 3px #a5a5a5b4;
+}
+.daftar-atlet .top{
+    margin-top: 100px;
+}
+
+.daftar-atlet .card-text{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.daftar-atlet .col-2{
+    margin-bottom: 0px;
+}
+.daftar-atlet img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.daftar-atlet a{
+    color: inherit; 
+}
+
+.daftar-atlet .photo{
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.daftar-atlet h5{
+    margin-bottom: 5px;
+}
+
+.daftar-atlet .card-body{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+/* end content */
+/* footer */
 .footer{
     background-color: rgb(61, 190, 117);
     padding: 10px;
