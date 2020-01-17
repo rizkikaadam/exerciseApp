@@ -112,6 +112,9 @@ body{
     box-shadow: 2px 5px 5px 3px #a5a5a5b4;
     text-align: center;
 }
+.panel .chart{
+    padding: 5px;
+}
 
 /* end content */
 /* footer */
