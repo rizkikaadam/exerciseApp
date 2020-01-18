@@ -31,6 +31,21 @@ body{
     background-color: yellowgreen;
 }
 
+.header-offline{
+    margin-top: 100px;
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+}
+
+.header-offline i{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    color: brown;
+    font-weight: bold;
+}
+
 /* end banner */
 /* content */
 .panel-nama{
